@@ -1,11 +1,11 @@
 This example would work with this kind of tf file as a provider
 
-`go build -o terraform-provider-engineer`
+`go build`
 
 ```
-provider "engineer" {}
+provider "template" {}
 
-resource "host" "example_host" {
+resource "template_host" "example_host" {
   name = "test"
 }
 ```
